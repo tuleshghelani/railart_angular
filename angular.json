@@ -34,33 +34,12 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/assets/css",
-              "src/assets/fonts",
-              "src/assets/images",
-              "src/assets/js"
+              "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
-              "src/assets/css/theme.css",
-              "src/assets/css/theme.min.css"
+              "src/styles.scss"
             ],
             "scripts": [
-              "src/assets/js/aos.cjs.js",
-              "src/assets/js/aos.esm.js",
-              "src/assets/js/aos.js",
-              "src/assets/js/bootstrap.bundle.js",
-              "src/assets/js/bootstrap.bundle.js.map",
-              "src/assets/js/bootstrap.bundle.min.js",
-              "src/assets/js/bootstrap.bundle.min.js.map",
-              "src/assets/js/bootstrap.esm.js",
-              "src/assets/js/bootstrap.esm.js.map",
-              "src/assets/js/bootstrap.esm.min.js",
-              "src/assets/js/bootstrap.esm.min.js.map",
-              "src/assets/js/bootstrap.js",
-              "src/assets/js/bootstrap.js.map",
-              "src/assets/js/bootstrap.min.js",
-              "src/assets/js/bootstrap.min.js.map"
             ]
           },
           "configurations": {
