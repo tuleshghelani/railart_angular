@@ -7,8 +7,31 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'railart';
-
+  slides: any = [
+    {
+      id: 1,
+      image: 'assets/slider/slider-image-1.webp',
+      title: 'Unobstructed',
+      description: 'glass railings that elevate your view and your space!'
+    },
+    {
+      id: 2,
+      image: 'assets/slider/slider-image-2.webp',
+      title: 'Innovation',
+      description: 'transparent protection with timeless design'
+    },
+    {
+      id: 3,
+      image: 'assets/slider/slider-image-3.webp',
+      title: 'Modern Design',
+      description: 'glass railings for a seamless look.'
+    }
+  ];
+  currentSlide = 0;
+  translateValue = 0;
+  private autoSlideInterval: any;
   ngOnInit() {
+    this.startAutoSlide();
     // Initialize AOS after view init
     setTimeout(() => {
       const AOS = (window as any).AOS;
@@ -36,5 +59,39 @@ export class AppComponent implements OnInit {
         }
       });
     }
+  }
+  nextSlide() {
+    this.currentSlide = (this.currentSlide + 1) % this.slides.length;
+    this.updateTranslateValue();
+  }
+
+  prevSlide() {
+    this.currentSlide = (this.currentSlide - 1 + this.slides.length) % this.slides.length;
+    this.updateTranslateValue();
+  }
+
+  goToSlide(index: number) {
+    this.currentSlide = index;
+    this.updateTranslateValue();
+  }
+
+  private updateTranslateValue() {
+    this.translateValue = -100 * this.currentSlide;
+  }
+
+  private startAutoSlide() {
+    this.autoSlideInterval = setInterval(() => {
+      this.nextSlide();
+    }, 5000);
+  }
+
+  private stopAutoSlide() {
+    if (this.autoSlideInterval) {
+      clearInterval(this.autoSlideInterval);
+    }
+  }
+
+  ngOnDestroy() {
+    this.stopAutoSlide();
   }
 }
