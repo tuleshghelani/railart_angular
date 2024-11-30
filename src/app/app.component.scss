@@ -70,3 +70,522 @@
 [data-aos-delay="400"] {
   transition-delay: 400ms;
 }
+
+// Project Cards Styling
+.project-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  img {
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .project-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+    padding: 20px;
+    color: white;
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out;
+
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 0;
+      opacity: 0.8;
+    }
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.05);
+    }
+
+    .project-overlay {
+      transform: translateY(0);
+    }
+  }
+}
+
+// Animation Enhancements
+[data-aos] {
+  opacity: 0;
+  transition-duration: 0.8s;
+  transition-property: opacity, transform;
+  
+  &.aos-animate {
+    opacity: 1;
+  }
+}
+
+// Enhanced Slider Styles
+.carousel-item {
+  height: 100vh;
+
+  .carousel-overlay {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    );
+  }
+}
+
+// Content Styling
+.carousel-content {
+  z-index: 2;
+  
+  .display-huge {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .features {
+    .bi {
+      font-size: 1.5rem;
+    }
+  }
+
+  .stats {
+    h3 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #E31E24;
+    }
+  }
+}
+
+// Badge Styling
+.badge {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+}
+
+// Enhanced Animations
+[data-aos="fade-right"] {
+  transform: translateX(-50px);
+  opacity: 0;
+  transition: all 0.8s ease-out;
+  
+  &.aos-animate {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+[data-aos="fade-left"] {
+  transform: translateX(50px);
+  opacity: 0;
+  transition: all 0.8s ease-out;
+  
+  &.aos-animate {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+// Responsive Adjustments
+@media (max-width: 768px) {
+  .carousel-content {
+    .display-huge {
+      font-size: 2.5rem;
+    }
+    
+    .stats {
+      gap: 2rem !important;
+      
+      h3 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+// Responsive Slider Styles
+.carousel-item {
+  height: 100vh;
+  @media (max-width: 768px) {
+    height: 100vh;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+// Enhanced Overlay
+.carousel-overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+
+  @media (max-width: 768px) {
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+
+// Responsive Content
+.carousel-content {
+  padding: 2rem;
+  @media (max-width: 768px) {
+    padding: 1rem;
+    text-align: center !important;
+    
+    &.text-end {
+      text-align: center !important;
+    }
+  }
+
+  .display-4 {
+    @media (max-width: 768px) {
+      font-size: 2.5rem;
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+      font-size: 3rem;
+    }
+  }
+
+  .lead {
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+
+  .features {
+    @media (max-width: 768px) {
+      .d-flex {
+        justify-content: center;
+      }
+    }
+  }
+
+  .stats {
+    @media (max-width: 768px) {
+      justify-content: center !important;
+      gap: 1.5rem !important;
+      
+      h3 {
+        font-size: 1.75rem !important;
+      }
+    }
+  }
+}
+
+// Brand Colors
+.text-danger {
+  color: #E31E24 !important;
+}
+
+.btn-danger {
+  background-color: #E31E24;
+  border-color: #E31E24;
+  padding: 0.75rem 1.5rem;
+  
+  @media (max-width: 768px) {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  &:hover {
+    background-color: darken(#E31E24, 10%);
+    border-color: darken(#E31E24, 10%);
+    transform: translateY(-2px);
+  }
+}
+
+// Enhanced Animations
+.carousel-fade {
+  .carousel-item {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+}
+
+// Mobile-friendly Controls
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+  opacity: 0.7;
+  
+  @media (max-width: 768px) {
+    width: 15%;
+  }
+  
+  &:hover {
+    opacity: 1;
+  }
+}
+
+// Responsive Badge
+.badge {
+  padding: 0.75rem 1.25rem;
+  @media (max-width: 768px) {
+    padding: 0.5rem 1rem;
+  }
+}
+
+// Animation Adjustments for Mobile
+@media (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0s !important;
+  }
+}
+
+.hero-slider {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  .slider-container {
+    position: relative;
+    height: 100%;
+  }
+
+  .slider {
+    height: 100%;
+    position: relative;
+  }
+
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    display: flex;
+    align-items: center;
+
+    &.active {
+      opacity: 1;
+      z-index: 1;
+    }
+  }
+
+  .slide-content {
+    position: relative;
+    z-index: 2;
+    width: 50%;
+    padding: 0 5%;
+    color: #fff;
+
+    .content-wrapper {
+      max-width: 600px;
+      margin-left: auto;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: #E31E24;
+      margin-bottom: 1rem;
+      display: block;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    .title {
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    .description {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+
+  .slide-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.2) 100%);
+    }
+  }
+
+  // Navigation Buttons
+  .nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    i {
+      color: #fff;
+      font-size: 1.5rem;
+    }
+
+    &:hover {
+      background: rgba(227,30,36,0.8);
+    }
+
+    &.prev-btn {
+      left: 30px;
+    }
+
+    &.next-btn {
+      right: 30px;
+    }
+  }
+
+  // Indicators
+  .slider-indicators {
+    position: absolute;
+    bottom: 30px;
+    left: 5%;
+    z-index: 10;
+    display: flex;
+    gap: 10px;
+
+    .indicator {
+      width: 30px;
+      height: 3px;
+      background: rgba(255,255,255,0.3);
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &.active {
+        background: #E31E24;
+        width: 50px;
+      }
+    }
+  }
+
+  // Animations
+  [data-animation] {
+    &.animated {
+      animation-duration: 0.8s;
+      animation-fill-mode: both;
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  // Responsive Design
+  @media (max-width: 1024px) {
+    .slide-content {
+      width: 60%;
+      
+      .title {
+        font-size: 2.8rem;
+      }
+    }
+
+    .slide-image {
+      width: 65%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .slide {
+      flex-direction: column;
+    }
+
+    .slide-content {
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      
+      .content-wrapper {
+        margin: 0 auto;
+      }
+
+      .title {
+        font-size: 2.2rem;
+      }
+    }
+
+    .slide-image {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      clip-path: none;
+      z-index: -1;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .slide-content {
+      .title {
+        font-size: 1.8rem;
+      }
+
+      .description {
+        font-size: 1rem;
+      }
+    }
+
+    .nav-btn {
+      width: 40px;
+      height: 40px;
+      
+      &.prev-btn {
+        left: 15px;
+      }
+      
+      &.next-btn {
+        right: 15px;
+      }
+    }
+  }
+}
+
+
