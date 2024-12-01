@@ -29,10 +29,19 @@
 .btn-danger {
   background-color: #E31E24;
   border-color: #E31E24;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  
+  @media (max-width: 768px) {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
 
   &:hover {
     background-color: darken(#E31E24, 10%);
     border-color: darken(#E31E24, 10%);
+    transform: translateY(-2px);
+    color: #fff;
   }
 }
 
@@ -295,6 +304,7 @@
   background-color: #E31E24;
   border-color: #E31E24;
   padding: 0.75rem 1.5rem;
+  color: #fff;
   
   @media (max-width: 768px) {
     padding: 0.5rem 1rem;
@@ -305,6 +315,7 @@
     background-color: darken(#E31E24, 10%);
     border-color: darken(#E31E24, 10%);
     transform: translateY(-2px);
+    color: #fff;
   }
 }
 
@@ -685,4 +696,29 @@
   .slide img {
     object-fit: contain;
   }
+}
+
+.link-fancy-danger {
+  color: #E31E24;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.link-fancy-danger:before {
+  content: '';
+  background: #E31E24;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.2s ease-out;
+}
+
+.link-fancy-danger:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
 }
