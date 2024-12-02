@@ -7,13 +7,14 @@ import { Component } from '@angular/core';
 })
 export class ProductsComponent {
 
-  ngAfterViewInit(){
-    // Initialize AOS after view init
-      const AOS = (window as any).AOS;
-      if (AOS) {
-        AOS.init({
-          duration: 800,
-        });
-      }
-  }
+ngOnInit(){
+  setTimeout(() => {
+    const AOS = (window as any).AOS;
+    if (AOS) {
+      AOS.init({
+        duration: 800,
+      });
+    }
+  });
+}
 }
