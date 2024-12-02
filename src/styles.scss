@@ -1658,3 +1658,18 @@ body[data-aos-duration="3000"] [data-aos] {
     }
 }
 
+/* Add this to your global styles */
+* {
+  cursor: none !important;
+}
+
+html,
+body {
+  cursor: none;
+}
+
+a:hover,
+button:hover,
+[role="button"]:hover {
+  cursor: none;
+}
