@@ -1,0 +1,63 @@
+// Brand Colors
+$primary-red: #E31E24;
+$dark-bg: #212529;
+
+.product-card {
+  background: linear-gradient(180deg, rgba($dark-bg, 0.9) 0%, rgba($dark-bg, 1) 100%);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+
+.product-image {
+  position: relative;
+  height: 300px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.product-content {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-outline-danger {
+  border-color: $primary-red;
+  color: $primary-red;
+  padding: 0.5rem 1.5rem;
+  border-width: 2px;
+
+  &:hover {
+    background-color: $primary-red;
+    color: white;
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .product-image {
+    height: 250px;
+  }
+
+  .product-content {
+    h3 {
+      font-size: 1.25rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+// Animation enhancements
+[data-aos] {
+  opacity: 0;
+  transition-duration: 1s;
+
+  &.aos-animate {
+    opacity: 1;
+  }
+}
