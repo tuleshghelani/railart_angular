@@ -12,6 +12,7 @@ import { ServiceComponent } from './service/service.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NeonCursorComponent } from './components/neon-cursor.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { NeonCursorComponent } from './components/neon-cursor.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    NeonCursorComponent
+    NeonCursorComponent,
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

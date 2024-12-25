@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
+  ngOnInit(){
+    setTimeout(() => {
+      const AOS = (window as any).AOS;
+      if (AOS) {
+         AOS.init({
+          duration: 800,
+        });
+      }
+    });
+  }
 }

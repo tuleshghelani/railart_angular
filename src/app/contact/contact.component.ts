@@ -6,5 +6,25 @@ import { Component } from '@angular/core';
   styleUrl: './contact.component.scss'
 })
 export class ContactComponent {
+  formData = {
+    name: '',
+    email: '',
+    message: ''
+  };
 
+  ngOnInit(){
+    setTimeout(() => {
+      const AOS = (window as any).AOS;
+      if (AOS) {
+         AOS.init({
+          duration: 800,
+        });
+      }
+    });
+  }
+
+  onSubmit() {
+    console.log('Form submitted:', this.formData);
+    // Add your form submission logic here
+  }
 }

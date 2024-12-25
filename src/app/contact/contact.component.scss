@@ -1,0 +1,62 @@
+$primary-red: #E31E24;
+
+.contact-section {
+    padding: 4rem 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    color: var(--accent);
+  }
+  .sub-text {
+    color: $primary-red;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .contact-info {
+    padding: 5rem;
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .info-item i {
+    margin-right: 1rem;
+    color: var(--accent);
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 768px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  // Animation enhancements
+[data-aos] {
+    opacity: 0;
+    transition-duration: 1s;
+  
+    &.aos-animate {
+      opacity: 1;
+    }
+  }
