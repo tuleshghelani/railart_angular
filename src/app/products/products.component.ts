@@ -15,6 +15,25 @@ export class ProductsComponent {
     { isExpanded:false, name:'Bracket glass railling' },
     { isExpanded:false, name:'Handrail & Accessories' },
   ]
+  handrailAndAccessoriesImages:any = [
+    { image:'assets/PRODUCT/1.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/2.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/3.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/4.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/5.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/6.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/7.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/8.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/9.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/10.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/11.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/12.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/13.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/14.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+    { image:'assets/PRODUCT/15.png', name:'Glass Railing', desc:'Elegence tranparency for modern spaces' },
+  ]
+  exploreProduct:any
+  selectedCategoryName:string = 'Architectural Railing Solutions'
 
 ngOnInit(){
   setTimeout(() => {
@@ -54,5 +73,14 @@ ngOnInit(){
 
   isCategoryActive(category: any): boolean {
     return category.isExpanded;
+  }
+
+  selectCategory(categoryName:string){
+    this.selectedCategoryName = categoryName
+    console.log('categoryName >>>',this.selectedCategoryName)
+  }
+
+  exploreProductDetail(productDetail:any){
+    this.exploreProduct = productDetail
   }
 }
