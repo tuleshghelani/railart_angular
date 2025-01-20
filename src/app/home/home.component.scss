@@ -748,3 +748,20 @@
     transform: scaleX(1);
     transform-origin: left;
   }
+
+  @media (max-width: 480px) {
+    .display-4 {
+      font-size: 30px;
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+
+    .cross-images {
+      height: 310px;
+      width: 315px;
+    }
+
+    .team-content {
+      margin-top: 50px;
+    }
+  }

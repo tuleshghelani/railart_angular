@@ -1659,17 +1659,26 @@ body[data-aos-duration="3000"] [data-aos] {
 }
 
 /* Add this to your global styles */
-* {
-  cursor: none !important;
-}
+// * {
+//   cursor: none !important;
+// }
 
 html,
 body {
-  cursor: none;
+//   cursor: none;
 }
 
 a:hover,
 button:hover,
 [role="button"]:hover {
-  cursor: none;
+//   cursor: none;
+}
+
+@media (max-width: 480px) {
+    .card {
+        margin-bottom: 50px;
+    }
+    .offset-1 {
+        margin-left: 0%
+    }
 }

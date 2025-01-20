@@ -1,0 +1,17 @@
+@media (max-width: 480px) {
+    .navbar-toggler {
+        border: none !important;
+    }
+    .navbar-collapse.collapse.show {
+        background-color: black;
+    }
+    .list-group-horizontal {
+        flex-direction: column;
+    }
+    .navbar-dark a.nav-link { 
+        width: fit-content;
+    }
+    .navbar-dark a.nav-link:hover {
+        width: fit-content;
+    }
+}

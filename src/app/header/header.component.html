@@ -1,8 +1,52 @@
-<nav
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" [ngClass]="{'bg-black': isScrollingDown}">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img
+          src="assets/logo.jpg"
+          alt="Rail Art Logo"
+          height="40"
+          class="d-inline-block align-middle"
+        />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
+        <li class="nav-item">
+          <a class="nav-link fs-5"  routerLink="/" aria-label="Homepage">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5" routerLink="/products" aria-label="Product page">
+            Products
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5" routerLink="/contact" aria-label="contact page">
+            Contact
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5" routerLink="/about" aria-label="about page">
+            About
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-5" routerLink="/service" aria-label="service page">
+            Services
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- <nav
     id="navScroll"
     class="navbar navbar-dark fixed-top px-vw-5" [ngClass]="{'bg-black': isScrollingDown}"
     tabindex="0"
   >
+
     <div class="container">
       <a
         class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center"
@@ -44,4 +88,4 @@
         </li>
       </ul>
     </div>
-  </nav>
+  </nav> -->
