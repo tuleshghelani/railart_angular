@@ -337,3 +337,10 @@ $dark-bg: #212529;
     }
   }
 }
+
+@media (max-width: 480px) {
+  .btn-outline-danger {
+    font-size: 13px;
+    padding: 5px 12px;
+  }
+}

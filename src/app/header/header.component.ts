@@ -30,4 +30,11 @@ export class HeaderComponent {
   }
   private lastScrollPosition: number = 0;
 
+  closeNavbar(): void {
+    const navbar = document.getElementById('railArtNavbarContent');
+    if (navbar?.classList.contains('show')) {
+      navbar.classList.remove('show'); // Remove the 'show' class to collapse the menu
+    }
+  }
+
 }

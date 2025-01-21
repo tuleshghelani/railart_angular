@@ -1,14 +1,13 @@
 <br>
 <div class="bg-black py-vh-3 products-container">
   <!-- Left side - Product Categories -->
-  <div class="ml-4 categories-section">
+  <div class="ml-4 categories-section" *ngIf="!isMobileScreen">
     <div class="categories-header d-flex justify-content-center">
       <h2>Our Products</h2>
       <button class="mobile-toggle" (click)="toggleMobileCategories()">
         <i class="fas" [class.fa-bars]="!isMobileCategoriesVisible" [class.fa-times]="isMobileCategoriesVisible"></i>
       </button>
     </div>
-
     <div class="category-list" [class.mobile-expanded]="isMobileCategoriesVisible">
       <div class="category-item" *ngFor="let category of productCategories">
         <div class="category-header neumorphic" (click)="toggleCategory(category)"
@@ -24,11 +23,11 @@
     <div class="row mb-5">
       <div class="col-12 text-center">
         <span class="h5 text-danger fw-lighter" data-aos="fade-down">Our Premium Collection</span>
-        <h2 class="display-4 text-white" data-aos="fade-up">{{selectedCategoryName}}</h2>
+        <h2 class="display-4 text-white" data-aos="fade-up" *ngIf="!isMobileScreen">{{selectedCategoryName}}</h2>
       </div>
     </div>
 
-    <div class="row g-5" *ngIf="selectedCategoryName === 'Handrail & Accessories'">
+    <div class="row g-5" *ngIf="selectedCategoryName === 'Handrail & Accessories' || isMobileScreen">
       <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
         *ngFor="let item of handrailAndAccessoriesImages">
         <div class="product-card bg-dark rounded-5">
@@ -45,138 +44,21 @@
       </div>
     </div>
 
-    <div class="row g-5" *ngIf="selectedCategoryName === 'Architectural Railing Solutions'">
-      <!-- Glass Railings -->
-      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-5" *ngIf="selectedCategoryName === 'Architectural Railing Solutions' || isMobileScreen">
+      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
+        *ngFor="let item of architecturalRailingSolutionsImages">
         <div class="product-card bg-dark rounded-5">
           <div class="product-image">
-            <img src="assets/product/Glass_Railings_1.jpeg" alt="Glass Railings" class="img-fluid rounded-top-5">
+            <img [src]="item.image" [alt]="item.name" class="img-fluid rounded-top-5">
           </div>
           <div class="product-content p-4">
-            <h3 class="h4 fw-lighter text-white mb-2">Glass Railings</h3>
-            <p class="text-secondary mb-3">Elegant transparency for modern spaces</p>
-            <!-- <a href="#" class="btn btn-outline-danger">Explore More</a> -->
+            <h3 class="h4 fw-lighter text-white mb-2">{{item.name}}</h3>
+            <p class="text-secondary mb-3">{{item.desc}}</p>
+            <a class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              (click)="exploreProductDetail(item)">Explore More</a>
           </div>
         </div>
       </div>
-
-      <!-- Aluminium Railings -->
-      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="product-card bg-dark rounded-5">
-          <div class="product-image">
-            <img src="assets/product/Aluminium_Railings_1.jpeg" alt="Aluminium Railings"
-              class="img-fluid rounded-top-5">
-          </div>
-          <div class="product-content p-4">
-            <h3 class="h4 fw-lighter text-white mb-2">Aluminium Railings</h3>
-            <p class="text-secondary mb-3">Durable and lightweight solutions</p>
-            <!-- <a href="#" class="btn btn-outline-danger">Explore More</a> -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Cable Railings -->
-      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="product-card bg-dark rounded-5">
-          <div class="product-image">
-            <img src="assets/product/Cable_Railings_1.jpeg" alt="Cable Railings" class="img-fluid rounded-top-5">
-          </div>
-          <div class="product-content p-4">
-            <h3 class="h4 fw-lighter text-white mb-2">Cable Railings</h3>
-            <p class="text-secondary mb-3">Durable and lightweight solutions</p>
-            <!-- <a href="#" class="btn btn-outline-danger">Explore More</a> -->
-          </div>
-        </div>
-      </div>
-
-      <!-- PVC and Vinyl Railings -->
-      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="product-card bg-dark rounded-5">
-          <div class="product-image">
-            <img src="assets/product/PVC_and_Vinyl_Railings_1.jpeg" alt="PVC and Vinyl Railings"
-              class="img-fluid rounded-top-5">
-          </div>
-          <div class="product-content p-4">
-            <h3 class="h4 fw-lighter text-white mb-2">PVC and Vinyl Railings</h3>
-            <p class="text-secondary mb-3">Elegant transparency for modern spaces</p>
-            <!-- <a href="#" class="btn btn-outline-danger">Explore More</a> -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Acrylic and Plastic Railings-->
-      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="product-card bg-dark rounded-5">
-          <div class="product-image">
-            <img src="assets/product/Acrylic_and_Plastic_Railings_1.jpeg" alt="Acrylic and Plastic Railings"
-              class="img-fluid rounded-top-5">
-          </div>
-          <div class="product-content p-4">
-            <h3 class="h4 fw-lighter text-white mb-2">Acrylic and Plastic Railings</h3>
-            <p class="text-secondary mb-3">Durable and lightweight solutions</p>
-            <!-- <a href="#" class="btn btn-outline-danger">Explore More</a> -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Staircase Railings -->
-      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="product-card bg-dark rounded-5">
-          <div class="product-image">
-            <img src="assets/product/Staircase_Railings_1.jpeg" alt="Staircase Railings"
-              class="img-fluid rounded-top-5">
-          </div>
-          <div class="product-content p-4">
-            <h3 class="h4 fw-lighter text-white mb-2">Staircase Railings</h3>
-            <p class="text-secondary mb-3">Durable and lightweight solutions</p>
-            <!-- <a href="#" class="btn btn-outline-danger">Explore More</a> -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Handrail Railings -->
-      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="product-card bg-dark rounded-5">
-          <div class="product-image">
-            <img src="assets/product/Handrail_Railings_1.jpeg" alt="Handrail Railings" class="img-fluid rounded-top-5">
-          </div>
-          <div class="product-content p-4">
-            <h3 class="h4 fw-lighter text-white mb-2">Handrail Railings</h3>
-            <p class="text-secondary mb-3">Elegant transparency for modern spaces</p>
-            <!-- <a href="#" class="btn btn-outline-danger">Explore More</a> -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Deck Railings-->
-      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="product-card bg-dark rounded-5">
-          <div class="product-image">
-            <img src="assets/product/Deck_Railings_1.jpeg" alt="Deck  Railings" class="img-fluid rounded-top-5">
-          </div>
-          <div class="product-content p-4">
-            <h3 class="h4 fw-lighter text-white mb-2">Deck Railings</h3>
-            <p class="text-secondary mb-3">Durable and lightweight solutions</p>
-            <!-- <a href="#" class="btn btn-outline-danger">Explore More</a> -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Terrace Railings -->
-      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="product-card bg-dark rounded-5">
-          <div class="product-image">
-            <img src="assets/product/Terrace_Railings_1.jpeg" alt="Terrace Railings" class="img-fluid rounded-top-5">
-          </div>
-          <div class="product-content p-4">
-            <h3 class="h4 fw-lighter text-white mb-2">Terrace Railings</h3>
-            <p class="text-secondary mb-3">Durable and lightweight solutions</p>
-            <!-- <a href="#" class="btn btn-outline-danger">Explore More</a> -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Add remaining products with the same structure -->
     </div>
   </div>
 </div>

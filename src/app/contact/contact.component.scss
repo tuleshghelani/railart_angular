@@ -22,7 +22,7 @@ $transition-duration: 0.3s;
         .form-group {
             margin-bottom: 1.5rem;
             position: relative;
-            
+            width: 100%;
             label {
                 color: var(--text);
                 font-weight: 500;
@@ -98,13 +98,14 @@ $transition-duration: 0.3s;
         button[type="submit"] {
             background-color: transparent;
             border: 2px solid $primary-red;
-            padding: 1rem 2.5rem;
+            padding: 10px 20px;
             font-weight: 600;
             transition: all $transition-duration ease;
             position: relative;
             overflow: hidden;
             border-radius: 8px;
-            
+            font-size: 16px;
+
             &::before {
                 content: '';
                 position: absolute;
@@ -156,6 +157,9 @@ h1 {
     background-color: var(--bg-secondary);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    h2 {
+        margin-bottom: 20px;
+    }
 }
 
 .info-item {
@@ -183,5 +187,22 @@ h1 {
   
     &.aos-animate {
         opacity: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-card {
+        padding-left: 10px;
+        form {
+            .form-group {
+                .form-control {
+                    height: 45px;
+                    width: 95%;
+                }
+            }
+        }
+    }
+    .contact-info {
+        padding: 2rem;
     }
 }
