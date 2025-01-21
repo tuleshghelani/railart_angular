@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    <div class="row g-5" *ngIf="selectedCategoryName === 'Architectural Railing Solutions' || isMobileScreen">
+    <div class="row g-5 mt-2" *ngIf="selectedCategoryName === 'Architectural Railing Solutions' || isMobileScreen">
       <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
         *ngFor="let item of architecturalRailingSolutionsImages">
         <div class="product-card bg-dark rounded-5">
@@ -73,11 +73,11 @@
           style="filter: invert(29%) sepia(91%) saturate(5968%) hue-rotate(354deg) brightness(89%) contrast(122%);">
         </button>
       </div>
-      <div class="modal-body d-flex w-100">
-        <div class="col-4 dialog-image">
+      <div class="d-xl-flex modal-body">
+        <div class="dialog-image">
           <img [src]="exploreProduct.image" alt="product image">
         </div>
-        <div class="col-8">
+        <div class="ms-3 mt-xl-2 mt-4">
           <h3 class="h4 fw-lighter mb-2">{{exploreProduct.name}}</h3>
           <p class="text-secondary mb-3">{{exploreProduct.desc}}</p>
         </div>
