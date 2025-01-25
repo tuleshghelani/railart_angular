@@ -1,0 +1,61 @@
+:host {
+  display: block;
+}
+
+.bg-black {
+  background-color: #0a0a0a;
+}
+
+.link-fancy {
+  color: #6c757d;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: #E31E24;
+    text-decoration: none;
+    
+    &::after {
+      width: 100%;
+    }
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1px;
+    background-color: #E31E24;
+    transition: width 0.3s ease;
+  }
+}
+
+.nav-item {
+  margin-bottom: 0.5rem;
+  
+  i {
+    color: #6c757d;
+    font-size: 1.1rem;
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 991.98px) {
+  .text-lg-start {
+    text-align: center !important;
+  }
+  
+  .navbar-brand {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+// Performance optimizations
+* {
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}

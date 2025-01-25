@@ -188,3 +188,28 @@
   @media (max-width: 480px) {
     
   }
+
+  
+  // Brand Colors
+  .text-danger {
+    color: #E31E24 !important;
+  }
+  
+  .btn-danger {
+    background-color: #E31E24;
+    border-color: #E31E24;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    
+    @media (max-width: 768px) {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+    }
+  
+    &:hover {
+      background-color: darken(#E31E24, 10%);
+      border-color: darken(#E31E24, 10%);
+      transform: translateY(-2px);
+      color: #fff;
+    }
+  }

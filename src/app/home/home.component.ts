@@ -10,19 +10,19 @@ export class HomeComponent {
   slides: any = [
     {
       id: 1,
-      image: 'assets/slider/slider-image-1.webp',
+      image: 'assets/slider/slider_1.jpeg',
       title: 'Unobstructed',
       description: 'glass railings that elevate your view and your space!',
     },
     {
       id: 2,
-      image: 'assets/slider/slider-image-2.webp',
+      image: 'assets/slider/slider_2.jpeg',
       title: 'Innovation',
       description: 'transparent protection with timeless design',
     },
     {
       id: 3,
-      image: 'assets/slider/slider-image-3.webp',
+      image: 'assets/slider/slider_3.jpeg',
       title: 'Modern Design',
       description: 'glass railings for a seamless look.',
     },
