@@ -23,69 +23,188 @@
     <div class="row mb-5">
       <div class="col-12 text-center">
         <span class="h5 text-danger fw-lighter" data-aos="fade-down">Our Premium Collection</span>
-        <h2 class="display-4 text-white" data-aos="fade-up" *ngIf="!isMobileScreen">{{selectedCategoryName}}</h2>
+        <h5 class="display-4 text-white" data-aos="fade-up" *ngIf="!isMobileScreen">{{selectedCategoryName}}</h5>
       </div>
     </div>
 
-    <div class="row g-5" *ngIf="selectedCategoryName === 'Handrail & Accessories' || isMobileScreen">
+    <div class="row g-5 mt-2" *ngIf="selectedCategoryName === 'Highlight Products' || isMobileScreen">
       <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
-        *ngFor="let item of handrailAndAccessoriesImages">
-        <div class="product-card bg-dark rounded-5">
-          <div class="product-image">
-            <img [src]="item.image" alt="Glass Railings" class="img-fluid rounded-top-5">
-          </div>
-          <div class="product-content p-4">
-            <h3 class="h4 fw-lighter text-white mb-2">{{item.name}}</h3>
-            <p class="text-secondary mb-3">{{item.desc}}</p>
-            <a class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
-              (click)="exploreProductDetail(item)">Explore More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row g-5 mt-2" *ngIf="selectedCategoryName === 'Architectural Railing Solutions' || isMobileScreen">
-      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
-        *ngFor="let item of architecturalRailingSolutionsImages">
+        *ngFor="let item of highlightProductImages">
         <div class="product-card bg-dark rounded-5">
           <div class="product-image">
             <img [src]="item.image" [alt]="item.name" class="img-fluid rounded-top-5">
           </div>
           <div class="product-content p-4">
-            <h3 class="h4 fw-lighter text-white mb-2">{{item.name}}</h3>
+            <h5 class="h5 fw-lighter text-white mb-2">{{item.name}}</h5>
             <p class="text-secondary mb-3">{{item.desc}}</p>
-            <a class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            <a class="btn btn-outline-danger px-3 py-1" data-bs-toggle="modal" data-bs-target="#exampleModal"
               (click)="exploreProductDetail(item)">Explore More</a>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="row g-5" *ngIf="selectedCategoryName === 'BRACKET & COVER SYSTEM' || isMobileScreen">
+      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
+        *ngFor="let item of bracketAndCoverSystemImages">
+        <div class="product-card bg-dark rounded-5">
+          <div class="product-image">
+            <img [src]="item.image" [alt]="item.ProductName" class="img-fluid rounded-top-5">
+          </div>
+          <div class="product-content p-4">
+            <h5 class="h5 fw-lighter text-white mb-2">{{item.ProductName}}</h5>
+            <a class="btn btn-outline-danger px-3 py-1" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              (click)="exploreProductDetail(item)">Explore More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-5" *ngIf="selectedCategoryName === 'CONTINUOUS SYSTEM' || isMobileScreen">
+      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
+        *ngFor="let item of continuousSystemImages">
+        <div class="product-card bg-dark rounded-5">
+          <div class="product-image">
+            <img [src]="item.image" [alt]="item.ProductName" class="img-fluid rounded-top-5">
+          </div>
+          <div class="product-content p-4">
+            <h5 class="h5 fw-lighter text-white mb-2">{{item.ProductName}}</h5>
+            <a class="btn btn-outline-danger px-3 py-1" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              (click)="exploreProductDetail(item)">Explore More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-5" *ngIf="selectedCategoryName === 'BRACKET SYSTEM' || isMobileScreen">
+      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
+        *ngFor="let item of bracketSystemImages">
+        <div class="product-card bg-dark rounded-5">
+          <div class="product-image">
+            <img [src]="item.image" [alt]="item.ProductName" class="img-fluid rounded-top-5">
+          </div>
+          <div class="product-content p-4">
+            <h5 class="h5 fw-lighter text-white mb-2">{{item.ProductName}}</h5>
+            <a class="btn btn-outline-danger px-3 py-1" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              (click)="exploreProductDetail(item)">Explore More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-5" *ngIf="selectedCategoryName === 'HANDRAIL & ACCESSORIES' || isMobileScreen">
+      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
+        *ngFor="let item of handrailAndAccessoriesImages">
+        <div class="product-card bg-dark rounded-5">
+          <div class="product-image">
+            <img [src]="item.image" [alt]="item.ProductName" class="img-fluid rounded-top-5">
+          </div>
+          <div class="product-content p-4">
+            <h5 class="h5 fw-lighter text-white mb-2">{{item.ProductName}}</h5>
+            <a class="btn btn-outline-danger px-3 py-1" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              (click)="exploreProductDetail(item)">Explore More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl">
-    <div class="modal-content product-card" *ngIf="exploreProduct">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">{{exploreProduct.name}}</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
-          style="filter: invert(29%) sepia(91%) saturate(5968%) hue-rotate(354deg) brightness(89%) contrast(122%);">
-        </button>
+    <div class="modal-content bg-black" *ngIf="exploreProduct">
+      <div class="modal-header border-danger">
+        <h5 class="modal-title text-white" id="exampleModalLabel">{{exploreProduct.ProductName}}</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="d-xl-flex modal-body">
         <div class="dialog-image">
-          <img [src]="exploreProduct.image" alt="product image">
+          <!-- Main Image -->
+          <img [src]="exploreProduct.image" [alt]="exploreProduct.ProductName" class="main-image rounded-4" [ngClass]="{'full-height': !exploreProduct.subImages}">
+          
+          <!-- Sub Images with Titles -->
+          <div class="sub-images-grid" *ngIf="exploreProduct?.subImages?.length > 1" [ngClass]="'items-' + exploreProduct.subImages.length">
+            <div class="sub-image-wrapper" *ngFor="let subImage of exploreProduct.subImages">
+              <img [src]="subImage.image" 
+                   [alt]="subImage.title" 
+                   class="sub-image rounded-3">
+              <div class="sub-image-title">{{ subImage.title }}</div>
+            </div>
+          </div>
         </div>
         <div class="ms-3 mt-xl-2 mt-4">
-          <h3 class="h4 fw-lighter mb-2">{{exploreProduct.name}}</h3>
-          <p class="text-secondary mb-3">{{exploreProduct.desc}}</p>
+          <div class="product-details" *ngIf="exploreProduct">
+            <!-- Essential Details Section -->
+            <div class="section-container">
+              <h3 class="section-title text-danger">ESSENTIAL DETAILS</h3>
+              <div class="essential-details">
+                <div class="detail-row">
+                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails?.type">
+                    <span class="label">Type:</span>
+                    <span class="value">{{ exploreProduct.essentialDetails.type }}</span>
+                  </div>
+
+                  <div class="detail-item">
+                    <span class="label">Use:</span>
+                    <span class="value">{{ exploreProduct.essentialDetails.use }}</span>
+                  </div>
+
+                  <div class="detail-item">
+                    <span class="label">Material:</span>
+                    <span class="value">{{ exploreProduct.essentialDetails.material }}</span>
+                  </div>
+                </div>
+
+                <div class="detail-row">
+                  <div class="detail-item">
+                    <span class="label">Length:</span>
+                    <ul>
+                      <li *ngFor="let item of exploreProduct.essentialDetails.length">{{ item }}</li>
+                    </ul>
+                  </div>
+
+                  <div class="detail-item">
+                    <span class="label">Width:</span>
+                    <ul>
+                      <li *ngFor="let item of exploreProduct.essentialDetails.width">{{ item }}</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="detail-row">
+                  <div class="detail-item full-width">
+                    <span class="label">Finish:</span>
+                    <span class="value">{{ exploreProduct.essentialDetails.finish }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- RRL Chart Section -->
+            <div class="section-container" *ngIf="exploreProduct.essentialDetails?.RRLChart">
+              <h3 class="section-title text-danger">Recommended Railing Length Chart</h3>
+              <div class="rrl-chart-section">
+                <table class="rrl-table">
+                  <tbody>
+                    <tr *ngFor="let row of exploreProduct.essentialDetails.RRLChart">
+                      <td *ngFor="let cell of row; let isFirst = index" [innerHTML]="cell">
+                      </td>
+                    </tr>
+                    <!-- Add note row that spans all columns -->
+                    <tr class="note-row" *ngIf="exploreProduct.category === 'BRACKET & COVER SYSTEM' || exploreProduct.category === 'BRACKET SYSTEM'">
+                      <td [attr.colspan]="exploreProduct.essentialDetails.RRLChart[0].length" class="text-center">
+                        Bracket will be fitted at every 2 feet
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
     </div>
   </div>
 </div>
