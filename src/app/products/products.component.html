@@ -90,6 +90,20 @@
           </div>
         </div>
       </div>
+      <h3 class="text-danger text-center">RAILING SPIGOT</h3>
+      <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
+        *ngFor="let item of railingSpigotImages">
+        <div class="product-card bg-dark rounded-5">
+          <div class="product-image">
+            <img [src]="item.image" [alt]="item.ProductName" class="img-fluid rounded-top-5">
+          </div>
+          <div class="product-content p-4">
+            <h5 class="h5 fw-lighter text-white mb-2">{{item.ProductName}}</h5>
+            <a class="btn btn-outline-danger px-3 py-1" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              (click)="exploreProductDetail(item)">Explore More</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="row g-5" *ngIf="selectedCategoryName === 'HANDRAIL & ACCESSORIES' || isMobileScreen">
@@ -158,23 +172,36 @@
                 </div>
 
                 <div class="detail-row">
-                  <div class="detail-item">
+                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails.length">
                     <span class="label">Length:</span>
-                    <ul>
+                    <ul *ngIf="exploreProduct.subCategory !== 'RAILING SPIGOT'">
                       <li *ngFor="let item of exploreProduct.essentialDetails.length">{{ item }}</li>
                     </ul>
+                    <span class="value" *ngIf="exploreProduct.subCategory === 'RAILING SPIGOT'">{{ exploreProduct.essentialDetails.length }}</span>
                   </div>
 
-                  <div class="detail-item">
+                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails.width">
                     <span class="label">Width:</span>
                     <ul>
                       <li *ngFor="let item of exploreProduct.essentialDetails.width">{{ item }}</li>
                     </ul>
                   </div>
+
+                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails.height">
+                    <span class="label">Height:</span>
+                    <span class="value">{{ exploreProduct.essentialDetails.height }}</span>
+                  </div>
+
+                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails.weight">
+                    <span class="label">Weight:</span>
+                    <ul>
+                      <li *ngFor="let item of exploreProduct.essentialDetails.weight">{{ item }}</li>
+                    </ul>
+                  </div>
                 </div>
 
                 <div class="detail-row">
-                  <div class="detail-item full-width">
+                  <div class="detail-item full-width" *ngIf="exploreProduct.essentialDetails.finish">
                     <span class="label">Finish:</span>
                     <span class="value">{{ exploreProduct.essentialDetails.finish }}</span>
                   </div>
