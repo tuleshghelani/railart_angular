@@ -6,15 +6,18 @@ $dark-bg: #212529;
   background: linear-gradient(180deg, rgba($dark-bg, 0.9) 0%, rgba($dark-bg, 1) 100%);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   margin-bottom: 2rem;
+  max-width: 320px;
 }
 
 .product-image {
   position: relative;
   height: 100%;
-  width: auto;
+  width: 100%;
   padding: 10px;
   img {
     height: 300px;
+    width: 100%;
+    object-fit: contain;
     border-radius: 23px 23px 0px 0px;
   }
 

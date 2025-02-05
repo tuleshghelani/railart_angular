@@ -160,19 +160,19 @@
                     <span class="value">{{ exploreProduct.essentialDetails.type }}</span>
                   </div>
 
-                  <div class="detail-item">
+                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails?.use">
                     <span class="label">Use:</span>
                     <span class="value">{{ exploreProduct.essentialDetails.use }}</span>
                   </div>
 
-                  <div class="detail-item">
+                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails?.material">
                     <span class="label">Material:</span>
                     <span class="value">{{ exploreProduct.essentialDetails.material }}</span>
                   </div>
                 </div>
 
                 <div class="detail-row">
-                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails.length">
+                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails?.length">
                     <span class="label">Length:</span>
                     <ul *ngIf="exploreProduct.subCategory !== 'RAILING SPIGOT'">
                       <li *ngFor="let item of exploreProduct.essentialDetails.length">{{ item }}</li>
@@ -180,28 +180,28 @@
                     <span class="value" *ngIf="exploreProduct.subCategory === 'RAILING SPIGOT'">{{ exploreProduct.essentialDetails.length }}</span>
                   </div>
 
-                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails.width">
+                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails?.width">
                     <span class="label">Width:</span>
                     <ul>
                       <li *ngFor="let item of exploreProduct.essentialDetails.width">{{ item }}</li>
                     </ul>
                   </div>
 
-                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails.height">
+                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails?.height">
                     <span class="label">Height:</span>
                     <span class="value">{{ exploreProduct.essentialDetails.height }}</span>
                   </div>
 
-                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails.weight">
+                  <div class="detail-item" *ngIf="exploreProduct.essentialDetails?.weight">
                     <span class="label">Weight:</span>
                     <ul>
-                      <li *ngFor="let item of exploreProduct.essentialDetails.weight">{{ item }}</li>
+                      <li *ngFor="let item of exploreProduct.essentialDetails?.weight">{{ item }}</li>
                     </ul>
                   </div>
                 </div>
 
                 <div class="detail-row">
-                  <div class="detail-item full-width" *ngIf="exploreProduct.essentialDetails.finish">
+                  <div class="detail-item full-width" *ngIf="exploreProduct.essentialDetails?.finish">
                     <span class="label">Finish:</span>
                     <span class="value">{{ exploreProduct.essentialDetails.finish }}</span>
                   </div>
@@ -215,7 +215,7 @@
               <div class="rrl-chart-section">
                 <table class="rrl-table">
                   <tbody>
-                    <tr *ngFor="let row of exploreProduct.essentialDetails.RRLChart">
+                    <tr *ngFor="let row of exploreProduct.essentialDetails?.RRLChart">
                       <td *ngFor="let cell of row; let isFirst = index" [innerHTML]="cell">
                       </td>
                     </tr>
