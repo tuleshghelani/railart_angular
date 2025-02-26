@@ -16,10 +16,10 @@ export class ProductsComponent {
   ]
 
   bracketAndCoverSystemImages: any = [
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/3.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/3.png'},
+        {title:'Slotted End Cap',image:'assets/items/3.png'}
       ],
       category: 'BRACKET & COVER SYSTEM',
       ProductName: 'Square Bracket & cover', 
@@ -56,10 +56,10 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/2.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/2.png'},
+        {title:'Slotted End Cap',image:'assets/items/2.png'}
       ],
       category: 'BRACKET & COVER SYSTEM',
       ProductName: 'Modular Step Bracket & Cover', 
@@ -76,10 +76,10 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/4.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/4.png'},
+        {title:'Slotted End Cap',image:'assets/items/4.png'}
       ],
       category: 'BRACKET & COVER SYSTEM',
       ProductName: 'Heavy Round Bracket & Cover', 
@@ -96,10 +96,10 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/27.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/27.png'},
+        {title:'Slotted End Cap',image:'assets/items/27.png'}
       ],
       category: 'BRACKET & COVER SYSTEM',
       ProductName: 'Heavy Squre Bracket & Cover', 
@@ -116,10 +116,10 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/15.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/15.png'},
+        {title:'Slotted End Cap',image:'assets/items/15.png'}
       ],
       category: 'BRACKET & COVER SYSTEM',
       ProductName: 'Heavy Bracket & Cover', 
@@ -139,10 +139,10 @@ export class ProductsComponent {
   ];
 
   continuousSystemImages: any = [
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/17.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/17.png'},
+        {title:'Slotted End Cap',image:'assets/items/17.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: 'Commercial feri', 
@@ -159,10 +159,10 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/18.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/18.png'},
+        {title:'Slotted End Cap',image:'assets/items/18.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: 'Modular Feri', 
@@ -179,10 +179,10 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/19.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/19.png'},
+        {title:'Slotted End Cap',image:'assets/items/19.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: 'Triangle Feri', 
@@ -199,10 +199,10 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/20.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/20.png'},
+        {title:'Slotted End Cap',image:'assets/items/20.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: 'Regular Feri', 
@@ -219,10 +219,10 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/21.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/21.png'},
+        {title:'Slotted End Cap',image:'assets/items/21.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: 'Clip Feri', 
@@ -239,10 +239,10 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/6.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/6.png'},
+        {title:'Slotted End Cap',image:'assets/items6.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: '40 X 30 Continuous Channel', 
@@ -259,10 +259,10 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/7.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/7.png'},
+        {title:'Slotted End Cap',image:'assets/items/7.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: '50 X 32 Continuous Channel', 
@@ -279,10 +279,10 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/8.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/8.png'},
+        {title:'Slotted End Cap',image:'assets/items/8.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: '80 X 37 Continuous Channel', 
@@ -299,10 +299,10 @@ export class ProductsComponent {
         ]
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/9.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/9.png'},
+        {title:'Slotted End Cap',image:'assets/items/9.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: '100X 37 Continuous Channel', 
@@ -319,10 +319,10 @@ export class ProductsComponent {
         ]
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/10.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/10.png'},
+        {title:'Slotted End Cap',image:'assets/items/10.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: '115 X 41 Continuous Channel', 
@@ -339,10 +339,10 @@ export class ProductsComponent {
         ]
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/11.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/11.png'},
+        {title:'Slotted End Cap',image:'assets/items/11.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: '117 X 45 Continuous Channel', 
@@ -359,9 +359,9 @@ export class ProductsComponent {
         ]
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/12.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
+        {title:'End Cap',image:'assets/items/12.png'},
         {title:'Slotted End Cap',image:'assets/items/1.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
@@ -379,10 +379,10 @@ export class ProductsComponent {
         ]
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/13.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/13.png'},
+        {title:'Slotted End Cap',image:'assets/items/13.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: '50 X 90 Led Continuous Channel', 
@@ -399,10 +399,10 @@ export class ProductsComponent {
         ]
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/14.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/14.png'},
+        {title:'Slotted End Cap',image:'assets/items/14.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: '120 X 60 Continuous Channel', 
@@ -419,10 +419,10 @@ export class ProductsComponent {
         ]
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/15.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/15.png'},
+        {title:'Slotted End Cap',image:'assets/items/15.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: '125 X 70 Continuous Channel', 
@@ -439,10 +439,10 @@ export class ProductsComponent {
         ]
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/16.png',
       subImages: [
-        {title:'End Cap',image:'assets/items/1.png'},
-        {title:'Slotted End Cap',image:'assets/items/1.png'}
+        {title:'End Cap',image:'assets/items/16.png'},
+        {title:'Slotted End Cap',image:'assets/items/16.png'}
       ],
       category: 'CONTINUOUS SYSTEM',
       ProductName: '140 X 90 Continuous Channel', 
@@ -462,7 +462,7 @@ export class ProductsComponent {
   ];
   
   bracketSystemImages: any = [
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/22.png',
       category: 'BRACKET SYSTEM',
       ProductName: 'L- Bracket', 
       essentialDetails: {
@@ -478,7 +478,7 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/23.png',
       category: 'BRACKET SYSTEM',
       ProductName: 'T - Bracket', 
       essentialDetails: {
@@ -494,7 +494,7 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/24.png',
       category: 'BRACKET SYSTEM',
       ProductName: 'Tower Bracket', 
       essentialDetails: {
@@ -510,7 +510,7 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/25.png',
       category: 'BRACKET SYSTEM',
       ProductName: 'V - Bracket', 
       essentialDetails: {
@@ -526,7 +526,7 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/26.png',
       category: 'BRACKET SYSTEM',
       ProductName: 'Radius Bracket', 
       essentialDetails: {
@@ -542,7 +542,7 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/pending.png',
       category: 'BRACKET SYSTEM',
       ProductName: 'RAB - 01 (48 X 48 Square Spigot)',
       essentialDetails: {
@@ -554,7 +554,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/pending.png',
       category: 'BRACKET SYSTEM',
       ProductName: 'RAB - 02 (50 X 36 Square Spigot)',
       essentialDetails: {
@@ -570,7 +570,7 @@ export class ProductsComponent {
 
   // RAILING SPIGOT
   railingSpigotImages: any = [
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/pending.png',
       category: 'BRACKET SYSTEM',
       subCategory: 'RAILING SPIGOT',
       ProductName: 'RAB - 01 (48 X 48 Square Spigot)',
@@ -583,7 +583,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/pending.png',
       category: 'BRACKET SYSTEM',
       subCategory: 'RAILING SPIGOT',
       ProductName: 'RAB - 02 (50 X 36 Square Spigot)',
@@ -596,7 +596,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/pending.png',
       category: 'BRACKET SYSTEM',
       subCategory: 'RAILING SPIGOT',
       ProductName: 'RAB - 03 (50MM Round Spigot)',
@@ -609,7 +609,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/pending.png',
       category: 'BRACKET SYSTEM',
       subCategory: 'RAILING SPIGOT',
       ProductName: 'RAB - 04 (Hexagon Spigot)',
@@ -622,7 +622,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/pending.png',
       category: 'BRACKET SYSTEM',
       subCategory: 'RAILING SPIGOT',
       ProductName: 'RAB - 05 (Pyramid Bracket)',
@@ -637,12 +637,12 @@ export class ProductsComponent {
   ];
 
   handrailAndAccessoriesImages: any = [
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/1.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/1.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/1.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/1.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/1.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 01 (38mm Round)', 
@@ -654,12 +654,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coated, Wooden Coating, PVDF Coating'
       } 
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/2.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/2.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/2.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/2.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/2.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 02 (50mm Round)', 
@@ -671,12 +671,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating,Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/3.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/3.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/3.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/3.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/3.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 03 (65mm Round)', 
@@ -688,12 +688,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/4.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/4.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/4.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/4.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/4.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 04 (25X25mm Square)', 
@@ -705,12 +705,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/5.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/5.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/5.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/5.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/5.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 05 (40X40mm Square)', 
@@ -722,12 +722,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/6.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/6.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/6.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/6.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/6.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 06 (50X50mm Square)', 
@@ -739,12 +739,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/7.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/7.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/7.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/7.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/7.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 07 (50X40mm)', 
@@ -756,12 +756,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/8.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/8.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/8.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/8.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/8.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 08 (60X40mm)', 
@@ -773,12 +773,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/9.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/9.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/9.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/9.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/9.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 09 (1 Side LED)', 
@@ -790,12 +790,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/10.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/10.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/10.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/10.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/10.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 10 (1 Side Without LED)', 
@@ -807,12 +807,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/11.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/11.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/11.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/11.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/11.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 11 (2 Side LED)', 
@@ -824,12 +824,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/12.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/12.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/12.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/12.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/12.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 12 (2 Side Without LED)', 
@@ -841,12 +841,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/13.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/13.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/13.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/13.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/13.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 13 (Commercial)', 
@@ -858,12 +858,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/14.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/14.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/14.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/14.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/14.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 14 (Diamond)', 
@@ -875,12 +875,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/15.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/15.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/15.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/15.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/15.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 15 (Eyes)', 
@@ -892,12 +892,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/16.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/16.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/16.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/16.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/16.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 16 (Incline)', 
@@ -909,12 +909,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/17.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/17.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/17.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/17.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/17.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 17 (Incline LED)', 
@@ -926,12 +926,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/18.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/18.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/18.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/18.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/18.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 18 (17X19 Slim)', 
@@ -943,12 +943,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/20.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/20.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/20.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/20.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/20.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 19 (Small Rightangle)', 
@@ -960,12 +960,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/19.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/19.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/19.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/19.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/19.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 20 (Right Angle)', 
@@ -977,12 +977,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/21.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/21.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/21.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/21.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/21.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 21 (Triangle)', 
@@ -994,12 +994,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/22.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/22.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/22.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/22.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/22.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 22 (Crystal Diamond)', 
@@ -1011,12 +1011,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/23.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/23.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/23.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/23.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/23.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 23 (Flower)', 
@@ -1028,12 +1028,12 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/HANDRAIL & ACCESSORIES/24.png',
       subImages: [
-        {title:'Wall Concealed',image:'assets/items/1.png'},
-        {title:'Fix Bend',image:'assets/items/1.png'},
-        {title:'Connector',image:'assets/items/1.png'},
-        {title:'End Cap',image:'assets/items/1.png'}
+        {title:'Wall Concealed',image:'assets/HANDRAIL & ACCESSORIES/24.png'},
+        {title:'Fix Bend',image:'assets/HANDRAIL & ACCESSORIES/24.png'},
+        {title:'Connector',image:'assets/HANDRAIL & ACCESSORIES/24.png'},
+        {title:'End Cap',image:'assets/HANDRAIL & ACCESSORIES/24.png'}
       ],
       category: 'HANDRAIL & ACCESSORIES',
       ProductName: 'RA - HR - 24 (Capsule)', 
