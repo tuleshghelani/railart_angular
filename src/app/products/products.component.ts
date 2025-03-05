@@ -542,7 +542,7 @@ export class ProductsComponent {
         ]
       } 
     },
-    { image: 'assets/items/pending.png',
+    { image: 'assets/items/48 x 48.png',
       category: 'BRACKET SYSTEM',
       ProductName: 'RAB - 01 (48 X 48 Square Spigot)',
       essentialDetails: {
@@ -554,7 +554,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       } 
     },
-    { image: 'assets/items/pending.png',
+    { image: 'assets/items/50 x 36.png',
       category: 'BRACKET SYSTEM',
       ProductName: 'RAB - 02 (50 X 36 Square Spigot)',
       essentialDetails: {
@@ -566,7 +566,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       } 
     }
-  ];
+  ]; 
 
   // RAILING SPIGOT
   railingSpigotImages: any = [
@@ -596,7 +596,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       } 
     },
-    { image: 'assets/items/pending.png',
+    { image: 'assets/items/50 mm.png',
       category: 'BRACKET SYSTEM',
       subCategory: 'RAILING SPIGOT',
       ProductName: 'RAB - 03 (50MM Round Spigot)',
