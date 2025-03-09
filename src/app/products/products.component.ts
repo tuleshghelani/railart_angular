@@ -541,36 +541,12 @@ export class ProductsComponent {
           ['Railing Length','&#8734;','&#8734;','20`','10`','-']
         ]
       } 
-    },
-    { image: 'assets/items/48 x 48.png',
-      category: 'BRACKET SYSTEM',
-      ProductName: 'RAB - 01 (48 X 48 Square Spigot)',
-      essentialDetails: {
-        type: 'Bracket System',
-        use: 'Indoor and Outdoor',
-        material: 'Aluminium Casting',
-        height: '9 inch and 6 Inch',
-        weight: ['Spigot 5 inch (0.700 kg / Nos.)','Spigot 10 inch (1.120 kg / Nos.)'],
-        finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
-      } 
-    },
-    { image: 'assets/items/50 x 36.png',
-      category: 'BRACKET SYSTEM',
-      ProductName: 'RAB - 02 (50 X 36 Square Spigot)',
-      essentialDetails: {
-        type: 'Bracket System',
-        use: 'Indoor and Outdoor',
-        material: 'Aluminium Casting',
-        height: '10 inch and 5 Inch',
-        weight: ['Spigot 5 inch (0.408 kg / Nos.)','Spigot 10 inch (0.930 kg / Nos.)'],
-        finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
-      } 
     }
   ]; 
 
   // RAILING SPIGOT
   railingSpigotImages: any = [
-    { image: 'assets/items/pending.png',
+    { image: 'assets/items/48_x_48.png',
       category: 'BRACKET SYSTEM',
       subCategory: 'RAILING SPIGOT',
       ProductName: 'RAB - 01 (48 X 48 Square Spigot)',
@@ -583,7 +559,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       } 
     },
-    { image: 'assets/items/pending.png',
+    { image: 'assets/items/50_x_36.png',
       category: 'BRACKET SYSTEM',
       subCategory: 'RAILING SPIGOT',
       ProductName: 'RAB - 02 (50 X 36 Square Spigot)',
@@ -609,7 +585,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/pending.png',
+    { image: 'assets/items/hexagon.png',
       category: 'BRACKET SYSTEM',
       subCategory: 'RAILING SPIGOT',
       ProductName: 'RAB - 04 (Hexagon Spigot)',
@@ -622,7 +598,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/pending.png',
+    { image: 'assets/items/pyramid.png',
       category: 'BRACKET SYSTEM',
       subCategory: 'RAILING SPIGOT',
       ProductName: 'RAB - 05 (Pyramid Bracket)',
