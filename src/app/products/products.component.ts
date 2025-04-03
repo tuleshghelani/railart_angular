@@ -1021,7 +1021,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/40_x_40_square.png',
       subImages: [
         {title:'Wall Concealed',image:'assets/items/1.png'},
         {title:'Fix Bend',image:'assets/items/1.png'},
@@ -1038,7 +1038,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/50_x_50_square.png',
       subImages: [
         {title:'Wall Concealed',image:'assets/items/1.png'},
         {title:'Fix Bend',image:'assets/items/1.png'},
@@ -1055,7 +1055,7 @@ export class ProductsComponent {
         finish: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating'
       }
     },
-    { image: 'assets/items/1.png',
+    { image: 'assets/items/50mm_round.png',
       subImages: [
         {title:'Wall Concealed',image:'assets/items/1.png'},
         {title:'Fix Bend',image:'assets/items/1.png'},
