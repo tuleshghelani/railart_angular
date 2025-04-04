@@ -1094,15 +1094,18 @@ export class ProductsComponent {
   // ];
 
   highlightProductImages:any = [
-    { image: 'assets/product/Glass_Railings_1.jpeg', name: 'Glass Railings', desc: 'Elegant transparency for modern spaces' },
-    { image: 'assets/product/Aluminium_Railings_1.jpeg', name: 'Aluminium Railings', desc: 'Durable and lightweight solutions' },
-    { image: 'assets/product/Cable_Railings_1.jpeg', name: 'Cable Railings', desc: 'Durable and lightweight solutions' },
-    { image: 'assets/product/PVC_and_Vinyl_Railings_1.jpeg', name: 'PVC and Vinyl Railings', desc: 'Elegant transparency for modern spaces' },
-    { image: 'assets/product/Acrylic_and_Plastic_Railings_1.jpeg', name: 'Acrylic and Plastic Railings', desc: 'Durable and lightweight solutions' },
-    { image: 'assets/product/Staircase_Railings_1.jpeg', name: 'Staircase Railings', desc: 'Durable and lightweight solutions' },
-    { image: 'assets/product/Handrail_Railings_1.jpeg', name: 'Handrail Railings', desc: 'Elegant transparency for modern spaces' },
-    { image: 'assets/product/Deck_Railings_1.jpeg', name: 'Deck Railings', desc: 'Durable and lightweight solutions' },
-    { image: 'assets/product/Terrace_Railings_1.jpeg', name: 'Terrace Railings', desc: 'Durable and lightweight solutions' }
+    { image: 'assets/items/4.png', name: 'Heavy Round Bracket & Cover', desc: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating' },
+    { image: 'assets/items/15.png', name: '125 X 70 Continuous Channel', desc: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating' },
+    { image: 'assets/items/50_x_50_square.png', name: 'RA - HR - 30 (50X50 Square Plain)', desc: 'Natural, Anodized, Powder Coating, Wooden Coating, PVDF Coating' },
+    // { image: 'assets/product/Glass_Railings_1.jpeg', name: 'Glass Railings', desc: 'Elegant transparency for modern spaces' },
+    // { image: 'assets/product/Aluminium_Railings_1.jpeg', name: 'Aluminium Railings', desc: 'Durable and lightweight solutions' },
+    // { image: 'assets/product/Cable_Railings_1.jpeg', name: 'Cable Railings', desc: 'Durable and lightweight solutions' },
+    // { image: 'assets/product/PVC_and_Vinyl_Railings_1.jpeg', name: 'PVC and Vinyl Railings', desc: 'Elegant transparency for modern spaces' },
+    // { image: 'assets/product/Acrylic_and_Plastic_Railings_1.jpeg', name: 'Acrylic and Plastic Railings', desc: 'Durable and lightweight solutions' },
+    // { image: 'assets/product/Staircase_Railings_1.jpeg', name: 'Staircase Railings', desc: 'Durable and lightweight solutions' },
+    // { image: 'assets/product/Handrail_Railings_1.jpeg', name: 'Handrail Railings', desc: 'Elegant transparency for modern spaces' },
+    // { image: 'assets/product/Deck_Railings_1.jpeg', name: 'Deck Railings', desc: 'Durable and lightweight solutions' },
+    // { image: 'assets/product/Terrace_Railings_1.jpeg', name: 'Terrace Railings', desc: 'Durable and lightweight solutions' }
   ]
 
   exploreProduct: any

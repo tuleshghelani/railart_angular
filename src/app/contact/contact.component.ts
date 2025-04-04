@@ -25,7 +25,9 @@ export class ContactComponent implements OnInit {
     message: ''
   };
 
-  ngOnInit() {
+  constructor() { }
+
+  ngOnInit(): void {
     setTimeout(() => {
       const AOS = (window as any).AOS;
       if (AOS) {
@@ -53,6 +55,14 @@ export class ContactComponent implements OnInit {
       // Reset form after successful submission
       this.resetForm();
     }
+  }
+
+  callPhone(): void {
+    window.location.href = 'tel:+917359993301';
+  }
+
+  sendEmail(): void {
+    window.location.href = 'mailto:railart2010@yahoo.in';
   }
 
   private isValidForm(): boolean {

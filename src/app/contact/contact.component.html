@@ -34,16 +34,39 @@
         <h2>Contact Information</h2>
         <div class="info-item mb-0" data-aos="fade-up" data-aos-delay="700">
           <i class="fas fa-map-marker-alt mb-3"></i>
-          <p>Gayatri Marg, Rajkot 360002, GJ, India</p>
+          <p>Hasanwadi, Sahkar Main Rd, <br>
+            Trishul Chowk, <br>
+            Narayan Nagar Society, <br>
+            Bhakti Nagar, <br>
+            Rajkot, Gujarat 360002</p>
         </div>
-        <div class="info-item mb-0" data-aos="fade-up" data-aos-delay="800">
+        <div class="info-item mb-0 clickable" data-aos="fade-up" data-aos-delay="800" (click)="callPhone()">
           <i class="fas fa-phone mb-3"></i>
           <p>+91 73599 93301</p>
+          <span class="click-hint">Click to call</span>
         </div>
-        <div class="info-item" data-aos="fade-up" data-aos-delay="900">
+        <div class="info-item clickable" data-aos="fade-up" data-aos-delay="900" (click)="sendEmail()">
           <i class="fas fa-envelope mb-3"></i>
-          <p>railart2010&#64;yahoo.com</p>
+          <p>railart2010&#64;yahoo.in</p>
+          <span class="click-hint">Click to email</span>
         </div>
+      </div>
+    </div>
+    <!-- Map Section -->
+    <div class="map-container mt-5" data-aos="fade-up" data-aos-delay="1000">
+      <h2 class="text-center mb-4">Find Us</h2>
+      <div class="map-wrapper">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.219585300044!2d70.80184577529162!3d22.269670379708536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959cb510a65fb8b%3A0xd09f5638598d30b7!2sB%20Times%20Sales%20and%20Service!5e0!3m2!1sen!2sin!4v1743736622838!5m2!1sen!2sin" 
+          width="100%" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Rail Art Location Map"
+          aria-label="Map showing Rail Art's location in Rajkot">
+        </iframe>
       </div>
     </div>
   </div>
