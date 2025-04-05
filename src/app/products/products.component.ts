@@ -1162,6 +1162,7 @@ export class ProductsComponent {
 
   selectCategory(categoryName: string) {
     this.selectedCategoryName = categoryName
+    this.isMobileCategoriesVisible = false
     console.log('categoryName >>>', this.selectedCategoryName)
   }
 

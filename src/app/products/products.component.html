@@ -1,11 +1,11 @@
 <br>
 <div class="bg-black py-vh-3 products-container">
   <!-- Left side - Product Categories -->
-  <div class="ml-4 categories-section" *ngIf="!isMobileScreen">
-    <div class="categories-header d-flex justify-content-center">
+  <div class="ml-4 categories-section" [ngClass]="{ 'mb-5' : isMobileScreen}">
+    <div class="categories-header d-flex justify-content-center align-items-center">
       <h2>Our Products</h2>
       <button class="mobile-toggle" (click)="toggleMobileCategories()">
-        <i class="fas" [class.fa-bars]="!isMobileCategoriesVisible" [class.fa-times]="isMobileCategoriesVisible"></i>
+        <i class="mt-2 fas" [class.fa-bars]="!isMobileCategoriesVisible" [class.fa-times]="isMobileCategoriesVisible"></i>
       </button>
     </div>
     <div class="category-list" [class.mobile-expanded]="isMobileCategoriesVisible">
@@ -23,11 +23,11 @@
     <div class="row mb-5">
       <div class="col-12 text-center">
         <span class="h5 text-danger fw-lighter" data-aos="fade-down">Our Premium Collection</span>
-        <h5 class="display-4 text-white" data-aos="fade-up" *ngIf="!isMobileScreen">{{selectedCategoryName}}</h5>
+        <div class="display-4 text-white" [ngClass]="isMobileScreen ? 'pt-3 title-text' : 'h5'" data-aos="fade-up">{{selectedCategoryName}}</div>
       </div>
     </div>
 
-    <div class="row g-5 mt-2" *ngIf="selectedCategoryName === 'Highlight Products' || isMobileScreen">
+    <div class="mx-auto row g-5 mt-2" *ngIf="selectedCategoryName === 'Highlight Products'">
       <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
         *ngFor="let item of highlightProductImages">
         <div class="product-card bg-dark rounded-5">
@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    <div class="row g-5" *ngIf="selectedCategoryName === 'BRACKET & COVER SYSTEM' || isMobileScreen">
+    <div class="mx-auto row g-5" *ngIf="selectedCategoryName === 'BRACKET & COVER SYSTEM'">
       <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
         *ngFor="let item of bracketAndCoverSystemImages">
         <div class="product-card bg-dark rounded-5">
@@ -60,7 +60,7 @@
       </div>
     </div>
 
-    <div class="row g-5" *ngIf="selectedCategoryName === 'CONTINUOUS SYSTEM' || isMobileScreen">
+    <div class="mx-auto row g-5" *ngIf="selectedCategoryName === 'CONTINUOUS SYSTEM'">
       <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
         *ngFor="let item of continuousSystemImages">
         <div class="product-card bg-dark rounded-5">
@@ -76,7 +76,7 @@
       </div>
     </div>
 
-    <div class="row g-5" *ngIf="selectedCategoryName === 'BRACKET SYSTEM' || isMobileScreen">
+    <div class="mx-auto row g-5" *ngIf="selectedCategoryName === 'BRACKET SYSTEM'">
       <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
         *ngFor="let item of bracketSystemImages">
         <div class="product-card bg-dark rounded-5">
@@ -106,7 +106,7 @@
       </div>
     </div>
 
-    <div class="row g-5" *ngIf="selectedCategoryName === 'HANDRAIL & ACCESSORIES' || isMobileScreen">
+    <div class="mx-auto row g-5" *ngIf="selectedCategoryName === 'HANDRAIL & ACCESSORIES'">
       <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"
         *ngFor="let item of handrailAndAccessoriesImages">
         <div class="product-card bg-dark rounded-5">
