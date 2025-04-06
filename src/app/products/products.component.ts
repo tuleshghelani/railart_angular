@@ -1163,6 +1163,7 @@ export class ProductsComponent {
   selectCategory(categoryName: string) {
     this.selectedCategoryName = categoryName
     this.isMobileCategoriesVisible = false
+    document.body.style.overflow = '';
     console.log('categoryName >>>', this.selectedCategoryName)
   }
 
@@ -1172,6 +1173,5 @@ export class ProductsComponent {
 
   checkScreenSize(width: number): void {
     this.isMobileScreen = width <= 480; // Set true if width is 480px or less
-    console.log('isMobileScreen >>>',this.isMobileScreen,width)
   }
 }

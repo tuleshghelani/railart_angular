@@ -1,8 +1,8 @@
 <br>
 <div class="bg-black py-vh-3 products-container">
   <!-- Left side - Product Categories -->
-  <div class="ml-4 categories-section" [ngClass]="{ 'mb-5' : isMobileScreen}">
-    <div class="categories-header d-flex justify-content-center align-items-center">
+  <div class="ml-4 categories-section" [ngClass]="{ 'mb-5 pt-0' : isMobileScreen}">
+    <div class="categories-header d-flex justify-content-center align-items-center" [ngClass]="{ 'pt-0' : isMobileScreen}">
       <h2>Our Products</h2>
       <button class="mobile-toggle" (click)="toggleMobileCategories()">
         <i class="mt-2 fas" [class.fa-bars]="!isMobileCategoriesVisible" [class.fa-times]="isMobileCategoriesVisible"></i>
