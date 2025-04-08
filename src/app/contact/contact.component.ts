@@ -65,6 +65,26 @@ export class ContactComponent implements OnInit {
     window.location.href = 'mailto:railart2010@yahoo.in';
   }
 
+  openSocialMedia(platform: string): void {
+    let url = '';
+    
+    switch(platform) {
+      case 'facebook':
+        url = 'https://www.facebook.com/railart'; // Replace with your actual Facebook URL
+        break;
+      case 'instagram':
+        url = 'https://www.instagram.com/railart'; // Replace with your actual Instagram URL
+        break;
+      case 'whatsapp':
+        url = 'https://wa.me/917359993301'; // Replace with your actual WhatsApp number
+        break;
+      default:
+        return;
+    }
+    
+    window.open(url, '_blank');
+  }
+
   private isValidForm(): boolean {
     return (
       this.formData.name.length >= 2 &&
