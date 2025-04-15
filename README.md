@@ -30,4 +30,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 To deploy the app, run `ng deploy`.
 ng deploy --base-href=https://tuleshghelani.github.io/railart_angular/
 
-ng deploy --base-href=https://tuleshghelani.github.io/railart_angular/
+ng deploy --base-href=https://railart.in/

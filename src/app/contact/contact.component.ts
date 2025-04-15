@@ -70,13 +70,13 @@ export class ContactComponent implements OnInit {
     
     switch(platform) {
       case 'facebook':
-        url = 'https://www.facebook.com/railart'; // Replace with your actual Facebook URL
+        url = 'https://www.facebook.com/'; 
         break;
       case 'instagram':
-        url = 'https://www.instagram.com/railart'; // Replace with your actual Instagram URL
+        url = 'https://www.instagram.com/'; 
         break;
       case 'whatsapp':
-        url = 'https://wa.me/917359993301'; // Replace with your actual WhatsApp number
+        url = 'https://wa.me/917359993301'; 
         break;
       default:
         return;
